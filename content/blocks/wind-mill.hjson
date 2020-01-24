@@ -1,2 +1,5 @@
 type: PowerGenerator
+name: Wind Mill
+description: Slowly generates power. Good when no alt power is avialeble # fix the spelling mistake pls 
 powerProduction: 1.0
+size: 2

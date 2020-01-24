@@ -7,9 +7,9 @@ requirements: [
   copper/100
   lead/50
 ]
-consumes: [
-	items: [
+consumes: {
+	items: {
 		items: []
-	]
-]
+	}
+}
 category: power

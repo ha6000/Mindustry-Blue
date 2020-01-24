@@ -8,5 +8,11 @@ requirements: [
   lead/50
 ]
 itemCapacity: 0
+consumes: {
+	items: {
+		optional: true
+		update: false
+	}
+}
 
 category: power

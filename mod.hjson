@@ -1,0 +1,7 @@
+name: Mindustry Blue
+displayName: Mindustry [blue]Blue[]
+author: Harry; Fresk
+description: Blue version of Mindustry.
+version: "1.0"
+minGameVersion: "102"
+dependencies: []

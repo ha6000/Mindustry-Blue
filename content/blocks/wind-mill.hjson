@@ -7,11 +7,6 @@ requirements: [
   copper/100
   lead/50
 ]
-
-consumes: {
-	items: {
-		optional: true 
-	}
-}
+itemCapacity: 0
 
 category: power

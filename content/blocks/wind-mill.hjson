@@ -1,10 +1,15 @@
 type: PowerGenerator
-name: Wind Mill
-description: Slowly generates power. Good when no alt power is avialeble # fix the spelling mistake pls 
+name: WindMill
+description: Slowly generates power. Good when no alt power 
 powerProduction: 1.0
 size: 2
 requirements: [
   copper/100
   lead/50
+]
+consumes: [
+	items: [
+		items: []
+	]
 ]
 category: power

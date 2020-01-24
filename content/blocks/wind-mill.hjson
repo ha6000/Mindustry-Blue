@@ -1,4 +1,4 @@
-type: PowerGenerator
+type: SolarGenerator
 name: WindMill
 description: Slowly generates power. Good when no alt power 
 powerProduction: 1.0
@@ -7,9 +7,4 @@ requirements: [
   copper/100
   lead/50
 ]
-consumes: {
-	items: {
-		items: []
-	}
-}
 category: power

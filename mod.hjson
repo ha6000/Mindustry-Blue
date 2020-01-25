@@ -1,7 +1,6 @@
-name: Mindustry Blue
-displayName: Mindustry [blue]Blue[]
-author: Harry; Fresk
-description: Blue version of Mindustry.
+name: Mindustry Blue 
+displayName: [orange]Mindustry[] [blue]Blue[]
+author: [blue]Harry[], [black]Fr[]esk#9698
+description: adds extra power and defences
 version: "1.1"
-minGameVersion: "103"
-dependencies: []
+minGameVersion: "102"

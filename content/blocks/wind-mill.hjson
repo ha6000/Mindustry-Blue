@@ -1,11 +1,5 @@
-name: WindMill
+name: Wind Mill
+description: Test
 type: SolarGenerator
-description: Slowly generates power. Good when no alt power 
-powerProduction: 1.0
-size: 2
-requirements: [
-	{item:"copper", amount: 50}
-]
-itemCapacity: 0
-
-category: power
+powerProduction: 1
+effect: steam

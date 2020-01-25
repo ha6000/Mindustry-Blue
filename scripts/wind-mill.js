@@ -11,3 +11,4 @@ const windMill = extendContent(SolarGenerator, 'wind-mill', {
 		}
 	}
 });
+print('Im loaded');

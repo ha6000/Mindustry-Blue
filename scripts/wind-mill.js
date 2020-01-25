@@ -8,7 +8,7 @@ const powerEffect = newEffect(20, e => {
 
 const windMill = extendContent(SolarGenerator, 'wind-mill', {
 	update(tile) {
-		print(Time.delta() * updateEffectChance))
+		print(Time.delta() * updateEffectChance));
 		if (Mathf.chance(Time.delta() * updateEffectChance)) {
 			print('Test');
 			Effects.effect(powerEffect, tile);

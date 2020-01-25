@@ -2,4 +2,4 @@ name: Wind Mill
 description: Test
 powerProduction: 1
 category: power
-buildVisibilty: sandboxOnly
+buildVisibility: sandboxOnly

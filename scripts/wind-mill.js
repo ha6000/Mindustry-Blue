@@ -1,4 +1,4 @@
-const updateEffectChance = 0.5;
+const updateEffectChance = 0.1;
 
 const powerEffect = newEffect(20, e => {
 	Draw.color(Color.white, Color.lightGray, e.fin()); //color goes from white to light gray
@@ -9,7 +9,7 @@ const powerEffect = newEffect(20, e => {
 const windMill = extendContent(SolarGenerator, 'wind-mill', {
 	update(tile) {
 		if (Mathf.chance(Time.delta() * updateEffectChance)) {
-			Effects.effect(powerEffect);
+			Effects.effect(powerEffect, tile)
 		}
 	}
 });

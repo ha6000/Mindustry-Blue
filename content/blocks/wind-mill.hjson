@@ -3,3 +3,4 @@ description: Test
 powerProduction: 1
 category: power
 buildVisibility: sandboxOnly
+size: 2

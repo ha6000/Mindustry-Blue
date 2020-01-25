@@ -1,5 +1,4 @@
 name: Wind Mill
 description: Test
-type: SolarGenerator
 powerProduction: 1
 effect: steam

@@ -6,12 +6,12 @@ const powerEffect = newEffect(20, e => {
 	Lines.circle(e.x, e.y, e.fin() * 500); //draw a circle whose radius goes from 0 to 100
 });
 
-const windMill = extendContent(SolarGenerator, 'wind-mill', {
+const windMill = extendContent(PowerGenerator, 'wind-mill', {
 	update(tile) {
 		if (Mathf.chance(Time.delta() * updateEffectChance)) {
 			Effects.effect(powerEffect, tile);
 		}
-		tile.entity.productionEfficiency = 1f;
+		tile.entity.productionEfficiency = 1.0;
 	}
 });
 print('Im loaded');

@@ -6,7 +6,7 @@ const powerEffect = newEffect(20, e => {
 	Lines.circle(e.x, e.y, e.fin() * 500); //draw a circle whose radius goes from 0 to 100
 });
 
-const windMill = extendContent(PowerGenerator, 'wind-mill', {
+const windMill = extendContent(SolarGenarator, 'wind-mill', {
 	update(tile) {
 		if (Mathf.chance(Time.delta() * updateEffectChance)) {
 			Effects.effect(powerEffect, tile);

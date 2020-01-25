@@ -1,12 +1,11 @@
-type: SolarGenerator
-
 name: WindMill
+type: SolarGenerator
 description: Slowly generates power. Good when no alt power 
 powerProduction: 1.0
 size: 2
 requirements: [
-  copper/100
-  lead/50
+  "copper/100",
+  "lead/50"
 ]
 itemCapacity: 0
 

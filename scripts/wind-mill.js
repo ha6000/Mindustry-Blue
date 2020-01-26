@@ -1,4 +1,9 @@
-const updateEffectChance = 10;
+const updateEffectChance = 0.02;
+const efficiency = getPowerEfficiency(30);
+
+function getPowerEfficiency(powerPerSecond) {
+	return powerPerSecond / 60;
+};
 
 const powerEffect = newEffect(20, e => {
 	Draw.color(Color.red, Color.lightGray, e.fin()); //color goes from white to light gray
@@ -8,12 +13,7 @@ const powerEffect = newEffect(20, e => {
 
 const windMill = extendContent(SolarGenerator, 'wind-mill', {
 	update(tile) {
-		print(Time.delta() * updateEffectChance));
-		if (Mathf.chance(Time.delta() * updateEffectChance)) {
-			print('Test');
-			Effects.effect(powerEffect, tile);
-		}
-		tile.entity.productionEfficiency = 1.0;
+		if (Mathf.chance(Time.delta() * updateEffectChance))
+		tile.entity.productionEfficiency = efficiency;
 	}
 });
-print('Im loaded');

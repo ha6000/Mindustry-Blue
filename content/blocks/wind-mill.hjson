@@ -2,5 +2,9 @@ name: Wind Mill
 description: Test
 powerProduction: 1
 category: power
+requirements: [
+	copper/50
+	lead/40
+]
 buildVisibility: sandboxOnly
 size: 2

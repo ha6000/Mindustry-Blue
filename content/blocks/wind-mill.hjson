@@ -6,6 +6,4 @@ requirements: [
 	copper/50
 	lead/40
 ]
-updateEffect: fireSmoke
-buildVisibility: sandboxOnly
 size: 2
